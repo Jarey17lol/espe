@@ -1,4 +1,4 @@
--- Ejercicio 20 Ingreso total, unidades vendidas y ticket promedio por categoria
+--Ejercicio 20 ingreso total, unidades vendidas y ticket promedio por categoria
 
 SELECT 
     p.categoria,

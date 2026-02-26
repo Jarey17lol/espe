@@ -1,4 +1,4 @@
--- Ejercicio 26 Clientes que solo compraron Paracaidas
+--Ejercicio 26 clientes que solo compraron Paracaidas
 
 SELECT 
     c.nombre,
@@ -24,5 +24,5 @@ GROUP BY c.id_cliente, c.nombre;
 --FROM clientes c Define la tabla principal con alias c.
 --JOIN ventas v ON c.id_cliente = v.id_cliente Relaciona cada cliente con sus compras.
 --WHERE c.id_cliente NOT IN (...) Excluye los clientes que aparecen en la subconsulta.
---Subconsulta (SELECT DISTINCT v2.id_cliente ...) Obtiene los clientes que compraron productos de la categoría 'Accesorios', uniendo ventas, detalle_ventas y productos y filtrando por esa categoría.
+--Subconsulta (SELECT DISTINCT v2.id_cliente ...) Obtiene los clientes que compraron productos de la categoria 'Accesorios', uniendo ventas, detalle_ventas y productos y filtrando por esa categoría.
 --GROUP BY c.id_cliente, c.nombre Agrupa los resultados por cliente para calcular el total individual.

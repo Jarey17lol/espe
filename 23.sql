@@ -1,4 +1,4 @@
--- Ejercicio 23 Cinco productos con mayor ingreso total generado
+--Ejercicio 23 cinco productos con mayor ingreso total generado
 
 SELECT 
     p.nombre,

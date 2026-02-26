@@ -1,4 +1,4 @@
--- Ejercicio 27 Diferencia entre mejor y peor mes de 2025
+--Ejercicio 27 diferencia entre mejor y peor mes de 2025
 
 WITH ingresos_mensuales AS (
     SELECT 
@@ -21,4 +21,4 @@ FROM ingresos_mensuales;
 --GROUP BY mes Agrupa los resultados por mes.
 --SELECT MAX(ingreso_total) - MIN(ingreso_total) Calcula la diferencia entre el mayor y el menor ingreso mensual.
 --AS diferencia_ingresos Asigna un nombre al resultado final.
---FROM ingresos_mensuales Utiliza la CTE previamente creada para obtener los valores máximos y mínimos.
+--FROM ingresos_mensuales Utiliza la CTE previamente creada para obtener los valores maximos y mínimos.

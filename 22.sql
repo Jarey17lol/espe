@@ -1,4 +1,4 @@
--- Ejercicio 22 Segmentación de clientes por nivel de gasto
+--Ejercicio 22 segmentación de clientes por nivel de gasto
 
 SELECT 
     c.nombre,

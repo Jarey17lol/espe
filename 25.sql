@@ -1,4 +1,4 @@
--- Ejercicio 25 Cliente con mayor variedad de productos distintos
+--Ejercicio 25 cliente con mayor variedad de productos distintos
 
 SELECT 
     c.nombre,
@@ -20,5 +20,5 @@ LIMIT 1;
 --JOIN ventas v ON c.id_cliente = v.id_cliente Relaciona cada cliente con sus ventas.
 --JOIN detalle_ventas d ON v.id_venta = d.id_venta Relaciona cada venta con los productos incluidos en ella.
 --GROUP BY c.id_cliente, c.nombre Agrupa los registros por cliente para calcular la variedad individual.
---ORDER BY variedad_productos DESC Ordena los resultados de mayor a menor según la cantidad de productos distintos.
---LIMIT 1 Devuelve únicamente el cliente con mayor variedad de productos comprados.
+--ORDER BY variedad_productos DESC Ordena los resultados de mayor a menor segun la cantidad de productos distintos.
+--LIMIT 1 Devuelve unicamente el cliente con mayor variedad de productos comprados.

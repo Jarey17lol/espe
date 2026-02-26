@@ -1,4 +1,4 @@
--- Ejercicio 30 Análisis por rangos de edad
+--Ejercicio 30 analisis por rangos de edad
 
 WITH clientes_con_edad AS (
     SELECT 
